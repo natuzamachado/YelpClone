@@ -1,0 +1,411 @@
+​​ul {
+    list-style-type: none;
+}
+
+body {
+    display: grid;
+    justify-content: auto;
+    justify-self: center;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./pexels-skitterphoto-349749.jpg);
+    margin: 0%;
+}
+
+.header{
+    background-image: linear-gradient(180deg, #000000b3, #00000052 72.92%, #0000);
+    display: grid;
+    height: 200px;
+    padding-top: 15px;
+    /* background-image: linear-gradient(180deg, rgb(58, 57, 57), rgb(72, 70, 70),rgb(109, 107, 107),rgb(255, 251, 251)); */
+    color: #FFFF;
+    
+}
+/* this is the first row menu bar */
+.section1 {
+    padding-right: 4em;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.3em;
+    padding-bottom: .4%;
+    align-items: baseline;
+    font: inherit;
+    font-size: 14px;
+    width: auto;
+}
+/* this is the second row menu bar */
+.section2{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    margin-bottom: 17px;
+    padding-bottom: 0%;
+    height: min-content;
+    
+}
+/* this is the slide show section */
+.section3 {
+    align-self: start;
+    height:700px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 52px;
+    padding: 0px 7.5%;
+    
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 1000px;
+    
+}
+.titleSec4{
+    margin-left: 2%;
+}
+.slides{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    grid-template-columns: 10% 90%;
+    width: 900px;
+
+}
+.title p{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 5%;
+    color: white;
+
+}
+.slides .animation{
+    height: 400px;
+}
+.transition1{
+    border: solid 2px white;
+    background-color: white;
+    border: none;
+    height: 115px;
+    width: 13px;
+    margin-top:60px;
+    border-radius: .4em;
+        /*trasition effect for background*/
+
+}
+    
+.transition2 {
+    background-color:white;
+    height: 115px;
+    width: 13px;
+    margin-top: 60px;
+    border-radius: .4em;
+}
+ 
+.transition3 {
+    background-color:white;
+    height: 115px;
+    width: 13px;
+    margin-top: 60px;
+    border-radius: .4em;
+}
+.slideBtn{
+    font-family: "Poppins";
+    font-size: 22px;
+    background-color:#e00707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .2em;
+    font-weight: 500;
+    border-radius: .25em;
+    padding: 12px 15px;
+    min-width: 230px;
+    
+}
+.button2{
+    margin-left: 7.2%;
+}
+.button2, .slideBtn, button{
+    border: none;
+    color: #e00707;
+}
+.titleBtn{
+    margin-left: 6%;
+    color: white;
+}
+.searchIcon{
+   height: 32px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: auto;
+  background-color: white;
+  background-image: none;
+}
+.dropdown {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em 0em 1em 1em;
+    position: relative;
+    background-color: #FFFF;
+    border-radius: 0.3em;
+    flex-wrap: nowrap;
+    padding-right: 15px;
+    width: 100%;
+}
+.logo,
+img {
+
+    align-self: flex-start;
+    margin-top: .6%;
+    height: 2.8em;
+    padding-left: 2%;
+    margin-left: 1.2%;
+}
+
+.dropbtn {
+    position: relative;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    font-size: 1.4em;
+    flex-wrap: nowrap;
+}
+.dropRight {
+    display: flex;
+    justify-self: flex-start;
+    width:50%;
+   
+}
+.dropRight, .borderRight input{
+    border-right: solid 3px #ebebeb;
+    border-radius: 0em;
+    height: 30px;
+}
+
+.dropLeft, .borderLeft input ul li a{
+    padding-left: 3%;
+    font-size: 15px;
+    color: black;
+}
+
+.darkText{
+    color:black;
+}
+button {
+    border: none;
+    
+}
+
+.location {
+    display: none;
+    position: absolute;
+    font-family: "Open Sans";
+    font-weight: 400;
+    background-color: #FFFF;
+}
+
+.dropbtn:focus~.location {
+    display: block;
+    background-color: #FFFF;
+}
+.optionList, a{
+    color: rgb(65, 64, 64);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.96em;
+}
+.optionList {
+    display: none;
+    position: absolute;
+}
+
+.dropbtn:focus~.optionList {
+    list-style: none;
+    display: block;
+    position: relative;
+    background-color: #FFFF;
+   border-radius: 2em;
+}
+
+.icon {
+    border: solid 2px red;
+    border-radius: 0.25em;
+    padding: 16%;
+    background-color: red;
+  
+}
+.fakeBtn {
+    width: 6em;
+    height: 4.75em;
+    background-color: #e00707;
+    background-image: url('./search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+
+}
+
+.searchBar {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFF;
+    border-radius: .5em;
+    height: 4.5em;
+    min-width:900px;
+    margin-left: 2%;  
+}
+
+nav {
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: space-around;
+    border: solid;
+    border-style: solid;
+    border-width: 2px;
+   
+}
+
+.navText{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-self: flex-start;
+    justify-items: stretch;
+    width: 100%;
+    height: fit-content;
+    margin-left: 4%;
+}
+.text{
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 18px;    
+}
+
+.signUp{
+    font-family: "Poppins";
+    background-color: #e00707;
+    color: #FFFF;
+    font-weight: 500;
+    border-radius: .2em;
+    padding: 12px 22px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.logIn{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 22px;
+    background-color: inherit;
+    color: #FFFF;
+    border: solid 2px white;
+    padding: 9px 23px;
+    border-radius: .2em;   
+}
+.text{
+    margin-right: 3%;
+}
+.buttonLog{
+    margin-left: 4%;
+    margin-right: 1%;
+}
+
+.section2{
+    display: flex;
+    justify-content: flex-start;
+}
+.servList {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.servList{
+ font-family: "Open Sans";
+ font-weight: 500;
+ background-color: inherit;
+ color:white;
+ font-size: 19px;
+ border-radius: 0.6em;
+   
+}
+
+.box {
+    display: none;
+    justify-self: flex-end;
+    background-color: white;
+    border: solid 4px red;
+}
+.optList{
+    width: 150px;
+    border: solid 3px blue;
+    margin-right: 13%;
+    padding: 1% 2%;
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.optList a {
+    border: solid 3px black;
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-family: "Open Sans";
+    font-weight: 400;
+    background-color: inherit;
+    border-radius: .8em;
+}
+
+.optList, a:hover {
+    background-color: #ddd;
+}
+
+.nav2:hover .box, .optList {
+    display: block;
+}
+.menu{
+    display: flex;
+    margin-left: 11%;
+    width: 50%;
+}
+.nav2 {
+    margin-right: 5%;
+}
+.arrow{
+    height: .7em;
+    padding-left: .2em;
+}
+.col2{
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    
+}
+.arrowIc{
+    width: min-content;
+}
+.title{
+    font-family: "Open Sans";
+    font-size: 30px;
+}
+.titleSec4, p{
+   font-family: "Poppins";
+   font-weight: 700;
+   font-size: 38px;
+}
