@@ -8,13 +8,13 @@ body {
     justify-self: center;
     background-color: white;
     margin: 0%;
+    height: 87vh;
 
    
 }
 #photo{
     background-image: url(./pexels-skitterphoto-349749.jpg);
     background-size: cover;
-    height: 87vh;
     background-repeat: no-repeat;
     margin-right: 0px;
     margin: 0px;
