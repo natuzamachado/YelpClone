@@ -9,31 +9,33 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&family=Poppins:wght@400;500;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;700;800&display=swap"
     rel="stylesheet">
-</head>
 
-<body class="mainPage"> 
-    <header class="header">
+<body>
+  <div id="photo" class="coverPic">
+    <div class="header">
       <div class="section1">
-        <div class="logo"><img src="./yelp_logo_dark_bg.png"></div>
+        <div class="logo"><img class="logo" src="./yelp_logo_dark_bg.png"></div>
         <div class="searchBar">
           <div class="dropdown">
             <div class="dropRight">
               <input type="search" placeholder="tacos, cheap dinner, Max's" class=" dropbtn borderRight lightText">
-              <ul class="optionList">
+             <!--
+               <ul class="optionList">
                 <li><a href="#">Restaurants</a></li>
                 <li><a href="#">Takeout</a></li>
                 <li><a href="#">Accountants</a></li>
                 <li><a href="#">Plumbers</a></li>
                 <li><a href="#">Auto Repair</a></li>
               </ul>
+             -->
+              
             </div>
             <div class="dropLeft">
               <input type="search" class="dropbtn borderLeft darkText" placeholder="Toronto, ON">
               <ul class="location darkText">
-                <li><a 
-                  class="location darkText" href="#">Select location</a></li>
+                <li><a class="location darkText" href="#">Select location</a></li>
               </ul>
             </div>
           </div>
@@ -48,142 +50,489 @@
           <div class="buttonSign"><button class="signUp">Sign Up</button></div>
         </div>
       </div>
-      </div>
-      </div>
-      <div class="section2">
-        <div class="menu">
-          <div class="nav2">
-            <button class="servList">
-              <div class="col2">
-                <div>Restaurants</div>
-                <div class="arrowIc"><img class="arrow" alt="dropdownIcon" src="./down-arrow.png"></div>
-              </div>
-            </button class="optList">
-            <div class="outbox">
-              
-            </div>
-            <div class="box">
-              <div class="optList">
-                  <a href="#"><h3>Delivery</h3></a>
-                  <a href="#">Burguers</a>
-                  <a href="#">Chinese</a>
-                  <a href="#">Italian</a>
-              </div>
-              <div class="optList">
-                <a href="#">Reservations</a>
-                <a href="#">Japanese</a>
-                <a href="#">Mexican</a>
-                <a href="#">Thai</a>
-              </div> 
-            </div>
+  <div class="section2">
+    <div class="menu">
+      <div class="nav2">
+        <button class="servList">
+          <div class="col2">
+            <div>Restaurants</div>
+            <div class="arrowIc"><img class="arrow" alt="dropdownIcon" src="./down-arrow.png"></div>
           </div>
-          <div class="nav2">
-            <button class="servList">
-              <div class="col2">
-                <div>Home Services</div>
-                <div class="arrowIc"><img class="arrow" alt="dropdownIcon" src="./down-arrow.png"></div>
-              </div>
-            </button>
-                <div class="box">
-                  <div class="optList">
-                    <a href="#">
-                      <h3>Delivery</h3>
-                    </a>
-                    <a href="#">Burguers</a>
-                    <a href="#">Chinese</a>
-                    <a href="#">Italian</a>
-                  </div>
-                  <div class="optList">
-                    <a href="#">Reservations</a>
-                    <a href="#">Japanese</a>
-                    <a href="#">Mexican</a>
-                    <a href="#">Thai</a>
-                  </div>
-                </div>
-            </div>
-            
-          <div class="nav2">
-            <button class="servList">
-              <div class="col2">
-                <div>Auto Services</div>
-                <div class="arrowIc"><img class="arrow" alt="dropdownIcon" src="./down-arrow.png"></div>
-              </div>
-            </button>
-            <div class="box">
-              <div class="optList">
-                <a href="#">
-                  <h3>Delivery</h3>
-                </a>
-                <a href="#">Burguers</a>
-                <a href="#">Chinese</a>
-                <a href="#">Italian</a>
-              </div>
-              <div class="optList">
-                <a href="#">Reservations</a>
-                <a href="#">Japanese</a>
-                <a href="#">Mexican</a>
-                <a href="#">Thai</a>
-              </div>
-            </div>
-            </div>
-          <div class="nav2">
-            <button class="servList">
-              <div class="col2">
-                <div>More</div>
-                <div class="arrowIc"><img class="arrow" alt="dropdownIcon" src="./down-arrow.png"></div>
-              </div>
-            </button>
-            <div class="box">
-              <div class="optList">
-                <a href="#">
-                  <h3>Delivery</h3>
-                </a>
-                <a href="#">Burguers</a>
-                <a href="#">Chinese</a>
-                <a href="#">Italian</a>
-              </div>
-              <div class="optList">
-                <a href="#">Reservations</a>
-                <a href="#">Japanese</a>
-                <a href="#">Mexican</a>
-                <a href="#">Thai</a>
-              </div>
-            </div>
-            </div>
+        </button class="optList">
+        <div class="outbox">
+        </div>
+        <div class="box">
+          <div class="optList">
+            <a href="#">
+              <h3>Delivery</h3>
+            </a>
+            <a href="#">Burguers</a>
+            <a href="#">Chinese</a>
+            <a href="#">Italian</a>
+          </div>
+          <div class="optList">
+            <a href="#">Reservations</a>
+            <a href="#">Japanese</a>
+            <a href="#">Mexican</a>
+            <a href="#">Thai</a>
           </div>
         </div>
       </div>
-      </div>
-    </header>
-      <div class="section3">
-        <div class="slides">
-          <div class="animation">
-            <div class="transition transition1"></div>
-            <div class="transition transition2"></div>
-            <div class="transition transition3"></div>
+      <div class="nav2">
+        <button class="servList">
+          <div class="col2">
+            <div>Home Services</div>
+            <div class="arrowIc"><img class="arrow" alt="dropdownIcon" src="./down-arrow.png"></div>
           </div>
-          <div class="content">
-            <div class="title">
-              <p>The gift of a clean home</p>
-            </div>
-            <div class="button2">
-              <button class="slideBtn">
-                <div class="slideBtn">
-                  <div class="searchIcon"><img class="searchIcon" alt="search icon" src="./search.png"></div>
-                  <div class="titleBtn">Home cleaner</div>
-                </div>
-              </button>
-            </div>
+        </button>
+        <div class="box">
+          <div class="optList">
+            <a href="#">
+              <h3>Delivery</h3>
+            </a>
+            <a href="#">Burguers</a>
+            <a href="#">Chinese</a>
+            <a href="#">Italian</a>
+          </div>
+          <div class="optList">
+            <a href="#">Reservations</a>
+            <a href="#">Japanese</a>
+            <a href="#">Mexican</a>
+            <a href="#">Thai</a>
           </div>
         </div>
       </div>
+      <div class="nav2">
+        <button class="servList">
+          <div class="col2">
+            <div>Auto Services</div>
+            <div class="arrowIc"><img class="arrow" alt="dropdownIcon" src="./down-arrow.png"></div>
+          </div>
+        </button>
+        <div class="box">
+          <div class="optList">
+            <a href="#">
+              <h3>Delivery</h3>
+            </a>
+            <a href="#">Burguers</a>
+            <a href="#">Chinese</a>
+            <a href="#">Italian</a>
+          </div>
+          <div class="optList">
+            <a href="#">Reservations</a>
+            <a href="#">Japanese</a>
+            <a href="#">Mexican</a>
+            <a href="#">Thai</a>
+          </div>
+        </div>
       </div>
+      <div class="nav2">
+        <button class="servList">
+          <div class="col2">
+            <div>More</div>
+            <div class="arrowIc"><img class="arrow" alt="dropdownIcon" src="./down-arrow.png"></div>
+          </div>
+        </button>
+        <div class="box">
+          <div class="optList">
+            <a href="#">
+              <h3>Delivery</h3>
+            </a>
+            <a href="#">Burguers</a>
+            <a href="#">Chinese</a>
+            <a href="#">Italian</a>
+          </div>
+          <div class="optList">
+            <a href="#">Reservations</a>
+            <a href="#">Japanese</a>
+            <a href="#">Mexican</a>
+            <a href="#">Thai</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="section3">
+  <div class="slides">
+    <div class="animation">
+      <div class="transition transition1"></div>
+      <div class="transition transition2"></div>
+      <div class="transition transition3"></div>
+    </div>
+    <div class="content">
+      <div class="title">
+        <p>The gift of a clean home</p>
+      </div>
+      <div class="button2">
+        <button href="#" class="slideBtn">
+          <div class="slideBtn">
+            <div class="searchIcon"><img class="searchIcon" alt="search icon" src="./search.png"></div>
+            <div class="titleBtn">Home cleaner</div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="credits">
+    <div class="boldCred">Project: pixel perfect clone from Yelp.</div>
+    <div>Implementation: Natuza Machado</div>
+</div>
+</div>
+
+  <div class="footerMainPg">
+    <div class="titleSec4">
+      <div>
+        <p>Recent Activity</p>
+      </div>
+    </div>
+  </div>
+  <div class="reviews">
+    <div class="contentSec4">
+    <div class="userReviews">
+      <div class="userRev">
+        <div class="userImg"><img class="userPic" alt="user photo" src="./profile.jpg"></div>
+        <div class="revDescription">
+          <div class="userName"><a class="userName" href="https://github.com/natuzamachado">Natuza M.</a></div>
+          <div class="titleDesc">Added 1 photo</div>
+        </div>
+      </div>
+        <div class="revTitle"><a class="revTitle" href="#">Challenge makes you grow</a></div>
+          <div class="imgRev"><a  class="imgRev" href="#" alt="photo"><img class="imgRev" alt="photo"
+            src="./codepic-pexels-luis-gomes-546819.jpg"></a>
+          </div>
+          <div class="likeIc">
+            <img alt="like icon" src="./like.png" class="likeIcon">
+          </div>
+    </div>
+      <div class="userReviews">
+          <div class="userRev">
+            <div class="userImg"><img class="userPic" alt="user photo" src="./profile.jpg"></div>
+              <div class="revDescription">
+                <div class="userName"><a class="userName" href="https://github.com/natuzamachado">Natuza M.</a></div>
+                <div class="titleDesc">Added 1 photo</div>
+              </div>
+            </div>
+            <div class="bannerPic"><a class="bannerPic" href="#" alt="photo"><img class="bannerPic" alt="photo"
+                  src="./ocean-pexels-sebastian-arie-voortman-189349.jpg"></a>
+            </div>
+            <div class="revContent">
+              <a class="revTitle" href="#">Ocean vibes are the best</a>
+              <img class="rating" src="./rating.png">
+              <div>
+                <div id="text">A recommendation to take time to relax...</div>
+                <div><a class="revTitle" href="#">Continue reading</a></div>
+              </div>
+            </div>
+            <div class="emogis">
+              <img class="rowIcon" alt="like icon" src="./like.png">
+              <img class="rowIcon" alt="smile emogi" src="./happy-face.png">
+              <img class="rowIcon" alt="emogi wearing dark glasses" src="./cool.png">
+            </div>
+      </div>
+        <div class="userReviews">
+          <div class="userRev">
+            <div class="userImg"><img class="userPic" alt="user photo" src="./profile.jpg"></div>
+            <div class="revDescription">
+              <div class="userName"><a class="userName" href="https://github.com/natuzamachado">Natuza M.</a></div>
+              <div class="titleDesc">Added 2 photos</div>
+            </div>
+          </div>
+          <div id="dbPicTitle" class="revTitle"><a class="revTitle" href="#">Code is fun</a></div>
+          <div class="doublePic">
+            <div class="dbPic">
+              <div class="dbBox">
+                <a class="slimmerPic" href="#" alt="photo"><img class="slimmerPic" alt="photo"
+                    src="./codepic-pexels-luis-gomes-546819.jpg"></a>
+                <div class="likeIc"><img alt="like icon" src="./like.png" class="likeIcon"></div>
+              </div>
+              <div class="dbBox">
+                <a class="slimmerPic" href="#" alt="photo"><img class="slimmerPic" alt="photo"
+                    src="./codepic-pexels-luis-gomes-546819.jpg"></a>
+                <div class="likeIc">
+                  <img class="likeIcon" alt="like icon" src="./like.png">
+                  <div class="likeText">1 like</div>
+                </div>
+              </div>
+            </div>
+            <div class="revTitle"><a class="revTitle" href="#">Show all 3 photos</a></div>
+          </div>
+        </div>
+      <div class="userReviews">
+        <div class="userRev">
+          <div class="userImg"><img class="userPic" alt="user photo" src="./profile.jpg"></div>
+          <div class="revDescription">
+            <div class="userName"><a class="userName" href="https://github.com/natuzamachado">Natuza M.</a></div>
+            <div class="titleDesc">Added 1 photo</div>
+          </div>
+        </div>
+        <div class="revTitle"><a class="revTitle" href="#">Challenge makes you grow</a></div>
+        <div class="imgRev"><a class="imgRev" href="#" alt="photo"><img class="imgRev" alt="photo"
+              src="./codepic-pexels-luis-gomes-546819.jpg"></a>
+        </div>
+        <div class="likeIc">
+          <img alt="like icon" src="./like.png" class="likeIcon">
+        </div>
+      </div>
+      <div class="userReviews">
+        <div class="userRev">
+          <div class="userImg"><img class="userPic" alt="user photo" src="./profile.jpg"></div>
+          <div class="revDescription">
+            <div class="userName"><a class="userName" href="https://github.com/natuzamachado">Natuza M.</a></div>
+            <div class="titleDesc">Added 1 photo</div>
+          </div>
+        </div>
+        <div class="bannerPic"><a class="bannerPic" href="#" alt="photo"><img class="bannerPic" alt="photo"
+              src="./ocean-pexels-sebastian-arie-voortman-189349.jpg"></a>
+        </div>
+        <div class="revContent">
+          <a class="revTitle" href="#">Ocean vibes are the best</a>
+          <img class="rating" src="./rating.png">
+          <div>
+            <div id="text">A recommendation to take time to relax...</div>
+            <div><a class="revTitle" href="#">Continue reading</a></div>
+          </div>
+        </div>
+        <div class="emogis">
+          <img class="rowIcon" alt="like icon" src="./like.png">
+          <img class="rowIcon" alt="smile emogi" src="./happy-face.png">
+          <img class="rowIcon" alt="emogi wearing dark glasses" src="./cool.png">
+        </div>
+      </div>
+      <div class="userReviews">
+        <div class="userRev">
+          <div class="userImg"><img class="userPic" alt="user photo" src="./profile.jpg"></div>
+          <div class="revDescription">
+            <div class="userName"><a class="userName" href="https://github.com/natuzamachado">Natuza M.</a></div>
+            <div class="titleDesc">Added 2 photos</div>
+          </div>
+        </div>
+        <div id="dbPicTitle" class="revTitle"><a class="revTitle" href="#">Code is fun</a></div>
+        <div class="doublePic">
+          <div class="dbPic">
+            <div class="dbBox">
+              <a class="slimmerPic" href="#" alt="photo"><img class="slimmerPic" alt="photo"
+                  src="./codepic-pexels-luis-gomes-546819.jpg"></a>
+              <div class="likeIc"><img alt="like icon" src="./like.png" class="likeIcon"></div>
+            </div>
+            <div class="dbBox">
+              <a class="slimmerPic" href="#" alt="photo"><img class="slimmerPic" alt="photo"
+                  src="./codepic-pexels-luis-gomes-546819.jpg"></a>
+              <div class="likeIc">
+                <img class="likeIcon" alt="like icon" src="./like.png">
+                <div class="likeText">1 like</div>
+              </div>
+            </div>
+          </div>
+          <div class="revTitle"><a class="revTitle" href="#">Show all 3 photos</a></div>
+        </div>
+      </div>
+    <div class="userReviews">
+      <div class="userRev">
+        <div class="userImg"><img class="userPic" alt="user photo" src="./profile.jpg"></div>
+        <div class="revDescription">
+          <div class="userName"><a class="userName" href="https://github.com/natuzamachado">Natuza M.</a></div>
+          <div class="titleDesc">Added 1 photo</div>
+        </div>
+      </div>
+      <div class="revTitle"><a class="revTitle" href="#">Challenge makes you grow</a></div>
+      <div class="imgRev"><a class="imgRev" href="#" alt="photo"><img class="imgRev" alt="photo"
+            src="./codepic-pexels-luis-gomes-546819.jpg"></a>
+      </div>
+      <div class="likeIc">
+        <img alt="like icon" src="./like.png" class="likeIcon">
+      </div>
+    </div>
+    <div class="userReviews">
+      <div class="userRev">
+        <div class="userImg"><img class="userPic" alt="user photo" src="./profile.jpg"></div>
+        <div class="revDescription">
+          <div class="userName"><a class="userName" href="https://github.com/natuzamachado">Natuza M.</a></div>
+          <div class="titleDesc">Added 1 photo</div>
+        </div>
+      </div>
+      <div class="bannerPic"><a class="bannerPic" href="#" alt="photo"><img class="bannerPic" alt="photo"
+            src="./ocean-pexels-sebastian-arie-voortman-189349.jpg"></a>
+      </div>
+      <div class="revContent">
+        <a class="revTitle" href="#">Ocean vibes are the best</a>
+        <img class="rating" src="./rating.png">
+        <div>
+          <div id="text">A recommendation to take time to relax...</div>
+          <div><a class="revTitle" href="#">Continue reading</a></div>
+        </div>
+      </div>
+      <div class="emogis">
+        <img class="rowIcon" alt="like icon" src="./like.png">
+        <img class="rowIcon" alt="smile emogi" src="./happy-face.png">
+        <img class="rowIcon" alt="emogi wearing dark glasses" src="./cool.png">
+      </div>
+    </div>
+    <div class="userReviews">
+      <div class="userRev">
+        <div class="userImg"><img class="userPic" alt="user photo" src="./profile.jpg"></div>
+        <div class="revDescription">
+          <div class="userName"><a class="userName" href="https://github.com/natuzamachado">Natuza M.</a></div>
+          <div class="titleDesc">Added 2 photos</div>
+        </div>
+      </div>
+      <div id="dbPicTitle"class="revTitle"><a class="revTitle" href="#">Code is fun</a></div>
+      <div class="doublePic">
+        <div class="dbPic">
+          <div class="dbBox">
+            <a class="slimmerPic" href="#" alt="photo"><img class="slimmerPic" alt="photo"
+                src="./codepic-pexels-luis-gomes-546819.jpg"></a>
+            <div class="likeIc"><img alt="like icon" src="./like.png" class="likeIcon"></div>
+          </div>
+          <div class="dbBox">
+            <a class="slimmerPic" href="#" alt="photo"><img class="slimmerPic" alt="photo"
+                src="./codepic-pexels-luis-gomes-546819.jpg"></a>
+            <div class="likeIc">
+              <img class="likeIcon" alt="like icon" src="./like.png">
+              <div class="likeText">1 like</div>
+            </div>
+          </div>
+        </div>
+        <div class="revTitle"><a class="revTitle" href="#">Show all 3 photos</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="showMore">
+    <div class="arrowIc"><img class="revArrow" alt="dropdownIcon" src="./blueDown.png"></div>
+    <div class="revText"><a class="revText" href="#">Show More Activity</a></div>
+  </div>
+</div>
+<div class="categories">
+  <div class="ctgText">Categories</div>
+  <div class="ctgBtns">
+     <a class="btn" href="https://www.yelp.ca/search?cflt=restaurants&find_loc=Toronto%2C+Ontario%2C+CA">
+        <div class="btn">
+          <div class="btnImg"><img class="restImg" alt="cutlery" src="./icons8-restaurant-64.png"></div>
+          <div class="imgTitle">Restaurants</div>
+        </div>
+     </a> 
+     <a class="btn" href="https://www.yelp.ca/search?cflt=shopping&find_loc=Toronto%2C+Ontario%2C+CA">
+      <div class="btn">
+        <div class="btnImg"><img alt="cutlery" src="./icons8-shopaholic-48.png"></div>
+        <div class="imgTitle">Shopping</div>
+      </div>
+    </a>
+    <a class="btn" href="https://www.yelp.ca/search?cflt=nightlife&find_loc=Toronto%2C+Ontario%2C+CA">
+        <div class="btn">
+          <div class="btnImg"><img alt="cutlery" src="./icons8-concert-48.png"></div>
+          <div class="imgTitle">Night Life</div>
+        </div>
+    </a>
+
+    <a class="btn" href="https://www.yelp.ca/search?cflt=active&find_loc=Toronto%2C+Ontario%2C+CA">
+      <div class="btn">
+        <div class="btnImg"><img alt="cutlery" src="./icons8-goal-48.png"></div>
+        <div class="imgTitle">Active Life</div>
+      </div>
+    </a>
+   <a class="btn" href="https://www.yelp.ca/search?find_desc=Beauty+%26+Spas&find_loc=Toronto%2C+Ontario%2C+CA">
+      <div class="btn">
+        <div class="btnImg"><img alt="cutlery" src="./icons8-spa-care-64.png"></div>
+        <div class="imgTitle beauty">Beauty & Spas</div>
+      </div>
+   </a>    
+   <a class="btn" href="https://www.yelp.ca/search?cflt=auto&find_loc=Toronto%2C+Ontario%2C+CA">
+      <div class="btn">
+        <div class="btnImg"><img alt="cutlery" src="./icons8-carpool-48.png"></div>
+        <div class="imgTitle">Automotive</div>
+      </div>
+   </a>
+    <a class="btn" href="https://www.yelp.ca/search?cflt=homeservices&find_loc=Toronto%2C+Ontario%2C+CA">
+      <div class="btn">
+        <div class="btnImg"><img alt="cutlery" src="./icons8-country-house-48.png"></div>
+        <div class="imgTitle">Home Services</div>
+      </div>
+    </a>
+    <a class="btn" href="#">
+      <button class="btn">
+        <div class="btnImg"><img class="dot" alt="cutlery" src="./icons8-dots-loading-48.png"></div>
+        <div class="imgTitle more">More</div>
+       </button>
+    </a>
+      
+   </div>
+</div>
+<div class="linkList">
+   <div>
+    <div class="linkTitle">About</div>
+    <div class="opt">
+      <ul class="opt">
+        <li class="opt"><a class="optL" href="https://business.yelp.com/">Collections</a></li>
+        <li class="opt"><a class="optL" href="#">About Yelp</a></li>
+        <li class="opt"><a class="optL" href="#">Careers</a></li>
+        <li class="opt"><a class="optL" href="#">Press</a></li>
+        <li class="opt"><a class="optL" href="#">Investor Relations</a></li>
+        <li class="opt"><a class="optL" href="#">Trust & Safety</a></li>
+        <li class="opt"><a class="optL" href="#">Content Guideliness</a></li>
+        <li class="opt"><a class="optL" href="#">Terms of Service</a></li>
+        <li class="opt"><a class="optL" href="#">Privacy Policy</a></li>
+        <li class="opt"><a class="optL" href="#">Ad Choices</a></li>
+        <li class="opt"><a class="optL" href="#">Manage Cookies</a></li>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <div class="linkTitle">Discover</div>
+      <div class="opt">
+        <ul class="opt">
+          <li class="opt"><a class="optL" href="https://business.yelp.com/">Collections</a></li>
+          <li class="opt"><a class="optL" href="#">Talk</a></li>
+          <li class="opt"><a class="optL" href="#">Events</a></li>
+          <li class="opt"><a class="optL" href="#">Yelp Blog</a></li>
+          <li class="opt"><a class="optL" href="#">Support</a></li>
+          <li class="opt"><a class="optL" href="#">Yelp Mobile</a></li>
+          <li class="opt"><a class="optL" href="#">Developers</a></li>
+          <li class="opt"><a class="optL" href="#">RSS</a></li>
+        </ul>
+      </div>
+  </div>
+  <div>
+      <div class="linkTitle">Yelp Business</div>
+      <div class="opt">
+        <ul class="opt"> 
+         <li class="opt"><a class="optL" href="https://business.yelp.com/">Yelp for Business</a></li>
+          <li class="opt"><a class="optL" href="#">Business Owner Login</a></li>
+          <li class="opt"><a class="optL"  href="#">Claim your Business Page</a></li>
+          <li class="opt"><a class="optL" href="#">Advertise on Yelp</a></li>
+          <li class="opt"><a class="optL" href="#">Yelp for Restaurants Owners</a></li>
+          <li class="opt"><a class="optL" href="#">Table Managment</a></li>
+          <li class="opt"><a class="optL" href="#">Business Success Stories</a></li>
+          <li class="opt"><a class="optL" href="#">Business Support</a></li>
+          <li class="opt"><a class="optL" href="#">Yelp Blog for Business</a></li>
+        </ul>
+      </div>
+   </div>
+  <div>
+    <div>
+      <div class="linkTitle">Languages</div>
+      <div class="btnArr">
+            <div class="btnText">
+              <botton>English</botton>
+            </div>
+            <div class="linkArrow"><img class="greyArrow" alt="dropdownIcon" src="./greydown.png">
+            </div>
+      </div> 
+      <div class="linkTitle">Countries</div>
+      <div class="btnArr">
+        <div class="btnText">
+          <botton>Canada</botton>
+        </div>
+        <div class="linkArrow"><img class="greyArrow" alt="dropdownIcon" src="./greydown.png">
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="copyRight">Copyright xxx</div>
+  </div>
+  
+</div>
+  
 </body>
-<footer>
-      <div class="section4">
-        <div class="titleSec4">
-          <p>Recent Activity</p>
-        </div>
-      </div>
-</footer>
+
 </html>
