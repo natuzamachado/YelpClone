@@ -1,4 +1,5 @@
 **This page wasn't designed for mobiles, please open it on a computer browser**
+
 link: https://natuzamachado.github.io/YelpClone/
 
 This webpage is a pixel perfect clone project, which was proposed by App Academy Open bootcamp. 
